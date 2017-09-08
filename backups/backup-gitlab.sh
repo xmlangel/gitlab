@@ -1,0 +1,2 @@
+#기본적으로 백업 경로는 /var/opt/gitlab/backups 이고 예전 파일 삭제는 하지 않는다. 
+gitlab-rake gitlab:backup:create
