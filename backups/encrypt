@@ -1,0 +1,2 @@
+#gpg --output <암호화될파일이름> --encrypt --recipient <ID> <암호화할파일이름>
+gpg --output $1.gpg --encrypt --recipient kmkim $1

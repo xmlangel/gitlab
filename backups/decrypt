@@ -1,0 +1,2 @@
+#gpg --output <파일이름> --decrypt <암호화된파일이름>
+gpg --output $1 --decrypt $1.gpg
